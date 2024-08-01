@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>RevitAddin.Webview2.Example</Name>
+		<FullClassName> RevitAddin.WebView2.Example.Revit.App</FullClassName>
+		<Text>BriefBuilderWeb</Text>
+		<Description>BriefBuilderWeb</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>
+			<!--Your .dll path location-->
+			C:\Users\Tobias\Source\Repos\RevitAddin.WebView2.Example\RevitAddin.WebView2.Example\bin\Debug\RevitAddin.WebView2.Example.Dev.1.0.0.dll
+		</Assembly>
+		<AddInId>402fe383-2648-4e98-adf8-5e6047f9dc32</AddInId>
+		<VendorId>www.briefbuilder.com</VendorId>
+		<VendorDescription>www.briefbuilder.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

@@ -111,7 +111,7 @@
   <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
     <IncludePackageReferencesDuringMarkupCompilation>false</IncludePackageReferencesDuringMarkupCompilation>
     <Revision>$([MSBuild]::Divide($([System.DateTime]::Now.TimeOfDay.TotalSeconds), 4).ToString('F0'))</Revision>
-    <PackageAssemblyVersion>.Dev.$(Version).$(Revision)</PackageAssemblyVersion>
+    <PackageAssemblyVersion>.Dev.$(Version)</PackageAssemblyVersion>
   </PropertyGroup>
 
   <PropertyGroup>
